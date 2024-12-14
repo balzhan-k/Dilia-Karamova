@@ -1,0 +1,254 @@
+@media (min-width: 1024px) {
+
+    /* NAVBAR SECTION */
+    .navbar-sm {
+        display: none;
+    }
+
+    .side-menu {
+        display: none;/
+    }
+
+    body {
+        padding-top: 60px;
+        font-family: var(--font-family);
+    }
+
+    .navbar-lg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--green-700);
+        padding: 10px 20px;
+        box-shadow: 0 2px 4px var(--dark);
+        z-index: 1000;
+        display: flex;
+    }
+
+    .nav-lg-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .nav-lg-links li {
+        margin: 0 15px;
+    }
+
+    .nav-lg-links a {
+        font-size: 1.2rem;
+        color: var(--light);
+        font-family: var(--font-family);
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+
+    .nav-lg-links a:hover {
+        background-color: var(--red-800);
+        border-radius: 25px;
+    }
+
+    .cta-button {
+        font-size: 1.3rem;
+        margin: 0;
+        transition: background-color var(--dark) ease;
+    }
+
+
+
+
+    /* LANDING SECTION */
+    .flex-container {
+        margin: 60px auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        max-width: 1000px;
+        padding-top: 100px;
+    }
+
+    .landing-image {
+        max-width: 100%;
+        flex: 1;
+        text-align: center;
+        order: 2;
+        max-width: 500px;
+    }
+
+    .landing-img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .landing-text {
+        flex: 1;
+        padding: 20px;
+        order: 1;
+    }
+
+    .landing-text h1 {
+        font-size: 3.5rem;
+        font-weight: var(--font-weight-300);
+    }
+
+    .landing-text p {
+        font-size: 1.6rem;
+        color: var(--red-800);
+    }
+
+    /* BLOCKQUOTE SECTION */
+    .styled-blockquote {
+        font-size: 2rem;
+        padding: 25px 0;
+    }
+
+    .styled-blockquote cite {
+        font-size: 1.5rem;
+    }
+
+    .styled-blockquote span {
+        font-size: 2.5rem;
+    }
+
+    /* ABOUT SECTION */
+    .about-image {
+        max-width: 45%;
+
+    }
+
+    .foreground-image {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        right: 35px;
+        top: 35px;
+    }
+
+
+    .flex-container-content h2 {
+        font-size: 2.4rem;
+    }
+
+
+    .flex-container-content p,
+    .flex-container-content li {
+        font-size: 1.3rem;
+    }
+
+    /* SPECIALTIES SECTION */
+
+    .specialties-image {
+        order: 2;
+        max-width: 450px;
+    }
+
+
+    .specialties-background-shape {
+        left: 30px;
+        width: 100%;
+        height: 110%;
+    }
+
+
+
+
+    /* CONSULTATION SECTION */
+    .consultation-container {
+        padding-top: 70px;
+    }
+
+    .consultation-section h2 {
+        font-size: 2.2rem;
+    }
+
+
+    .consultation-section h3 {
+        font-size: 2rem;
+    }
+
+    .price {
+        font-size: 2rem;
+    }
+
+
+    .duration {
+        font-size: 1.5rem;
+    }
+
+    .consultation-section a {
+        margin: 40px auto;
+        font-size: 1.7rem;
+    }
+
+
+    /* CONTACT SECTION */
+
+    .contact-section h3 {
+        font-size: 2rem;
+        margin: 25px auto;
+    }
+
+
+    .contact-section a,
+    .contact-section p {
+        margin: 20px auto;
+        font-size: 1.6rem;
+    }
+
+    .icons i {
+        font-size: 1.5em;
+        margin-left: 20px;
+    }
+
+    .footer i {
+        font-size: 1.3rem;
+
+    }
+
+    /*SIGNUP-FORM STYLES*/
+    form {
+        max-width: 600px;
+        margin: 3.5rem auto;
+      }
+    
+      form h2 {
+        font-size: 2.3rem;
+      }
+      .input-group label {
+        font-size: 1.3rem;
+      }
+
+      .btn-success {
+          font-size: 1.3rem;
+      }
+      
+  /*SUCCESS FORM*/ 
+  
+  .form-success {
+    padding: 40px;
+    max-width: 800px;
+   
+  }
+
+  .form-success h1 {
+    font-size: 2rem;
+  }
+
+  .form-success p {
+    font-size: 1.2em;
+  }
+
+  .return-button a {
+    padding: 16px 28px;
+    font-size: 1.2em;
+  }
+
+      
+}
