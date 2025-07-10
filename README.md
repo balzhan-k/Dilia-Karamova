@@ -20,6 +20,10 @@ This project is a personal website for Dilia Karamova, a consulting psychologist
 - **Contact Form**: Link to the `signup.html` page for consultation.
 - **Contact Information**: Phone, email, and social media links.
 
+## Project Overview
+![DiliaProject](https://github.com/user-attachments/assets/9082890f-c10c-441d-9e9b-a6fe0a2e694b)
+
+
 ## How to Run the Project
 
 To view the project, simply open the `index.html` file in your web browser.
