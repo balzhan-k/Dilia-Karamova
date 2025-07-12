@@ -1,6 +1,4 @@
 @media (min-width: 1024px) {
-
-    /* NAVBAR SECTION */
     .navbar-sm {
         display: none;
     }
@@ -59,9 +57,6 @@
     }
 
 
-
-
-    /* LANDING SECTION */
     .flex-container {
         margin: 60px auto;
         flex-direction: row;
@@ -86,7 +81,6 @@
         height: auto;
     }
 
-
     .landing-text {
         flex: 1;
         padding: 20px;
@@ -103,7 +97,6 @@
         color: var(--red-800);
     }
 
-    /* BLOCKQUOTE SECTION */
     .styled-blockquote {
         font-size: 2rem;
         padding: 25px 0;
@@ -117,10 +110,8 @@
         font-size: 2.5rem;
     }
 
-    /* ABOUT SECTION */
     .about-image {
         max-width: 45%;
-
     }
 
     .foreground-image {
@@ -131,24 +122,19 @@
         top: 35px;
     }
 
-
     .flex-container-content h2 {
         font-size: 2.4rem;
     }
-
 
     .flex-container-content p,
     .flex-container-content li {
         font-size: 1.3rem;
     }
 
-    /* SPECIALTIES SECTION */
-
     .specialties-image {
         order: 2;
         max-width: 450px;
     }
-
 
     .specialties-background-shape {
         left: 30px;
@@ -156,10 +142,6 @@
         height: 110%;
     }
 
-
-
-
-    /* CONSULTATION SECTION */
     .consultation-container {
         padding-top: 70px;
     }
@@ -188,8 +170,6 @@
     }
 
 
-    /* CONTACT SECTION */
-
     .contact-section h3 {
         font-size: 2rem;
         margin: 25px auto;
@@ -212,7 +192,6 @@
 
     }
 
-    /*SIGNUP-FORM STYLES*/
     form {
         max-width: 600px;
         margin: 3.5rem auto;
@@ -228,13 +207,10 @@
       .btn-success {
           font-size: 1.3rem;
       }
-      
-  /*SUCCESS FORM*/ 
-  
+        
   .form-success {
     padding: 40px;
     max-width: 800px;
-   
   }
 
   .form-success h1 {
@@ -248,7 +224,5 @@
   .return-button a {
     padding: 16px 28px;
     font-size: 1.2em;
-  }
-
-      
+  } 
 }
